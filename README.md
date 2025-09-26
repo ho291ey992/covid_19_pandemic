@@ -2,7 +2,7 @@
 
 ## 簡介
 
-這個專案「大疫世代」透過 CSSE at Johns Hopkins University [csse_covid_19_data](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data) 提供 2020-01-22 至 2023-03-09 的每日報告與時間序列資料製作出了頁籤式疫情儀表板。我們使用了 `pandas` 與 `sqlite3` 建立了資料庫，利用 `gradio` 進行概念驗證並做出成品。可以透過 Hugging Face Spaces 的連結：<https://huggingface.co/spaces/ho291ey992/covid_19_pandemic> 參考成品。
+這個專案「大疫世代」透過 [Johns Hopkins University COVID-19 Website](https://github.com/govex/COVID-19) 和 CSSE at Johns Hopkins University [csse_covid_19_data](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data) 提供 2020-01-22 至 2023-03-09 的每日報告與時間序列資料製作出了頁籤式疫情儀表板。我們使用了 `pandas` 與 `sqlite3` 建立了資料庫，利用 `gradio` 進行概念驗證並做出成品。可以透過 Hugging Face Spaces 的連結：<https://huggingface.co/spaces/ho291ey992/covid_19_pandemic> 參考成品。
 
 ## 如何重現
 
