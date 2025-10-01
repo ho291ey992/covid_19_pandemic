@@ -3,7 +3,7 @@ import pandas as pd
 import gradio as gr
 import plotly.graph_objects as go
 
-file_path = '練習專案五：大疫世代/covid_19_pandemic/data/'
+file_path = 'data/'
 db_name = 'COVID-19.db'
 connection = sqlite3.connect(f'{file_path}{db_name}')
 sql = '''select * from daily_report'''
@@ -109,3 +109,4 @@ with gr.Blocks() as demo:
 
 demo.launch()
 demo.close()
+
